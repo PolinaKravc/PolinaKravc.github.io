@@ -1,0 +1,88 @@
+@font-face{
+	font-family: Dimon;
+	src: url(faux.ttf);
+}
+
+*{
+	margin: 0;
+	font-family: Dimon;
+}
+body{
+	background-color: black;
+}
+.hat{
+	height: 100px;
+	background-color: #D9D9D9;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.hat img{
+	height: 80px;
+}
+.class {
+	height: 100px;
+	background-color: #59533E;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.class a{
+	color: #fff;
+	font-size: 35px;
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+}
+
+.box {
+	display: flex;
+}
+.card{
+	width: 50%;
+	height: 600px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+	padding-bottom: 100px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+	box-shadow: inset 0px 0px 15px 0px black;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.card:hover{
+	box-shadow: inset 0px 0px 50px 5px black;
+	background-size: 90%;
+
+}
+.card h2{
+	font-size: 35px;
+}
+.card p{
+ 	font-size: 30px;
+ 	margin-top: 20px;
+}
+.soup{
+	 background-image: url(IMG/soup.png);
+}
+.roll{
+	background-image: url(IMG/roll.png);
+	background-position: 50% - 100px;
+}
+.snacks{
+	background-image: url(IMG/h.png);
+}
+.desserts{
+	background-image: url(IMG/k.png);
+}
